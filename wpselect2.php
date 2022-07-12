@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: WpSelect2
- * Plugin URI: https://omergoktas.com
- * Description: Simple Select2 plug-in for WordPress.
+ * Plugin URI: https://github.com/omergoktas/WpSelect2
+ * Description: Simple Select2 plugin for WordPress.
  * Version: 1.0.0
  * Author: Ömer Göktaş
  * Author URI: https://omergoktas.com
