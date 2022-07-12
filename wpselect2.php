@@ -6,13 +6,13 @@
  * Version: 1.0.0
  * Author: Ömer Göktaş
  * Author URI: https://omergoktas.com
- * Author Email: iletisim@omergoktas.com
+ * Author Email: omer@omergoktas.com
  * Credits:
  *    Igor Vaynberg [ https://select2.org ]
  *    Keith Parent  [ https://www.keithparent.com ]
  * License:
- *    Copyright 2022 Ömer Göktaş (iletisim@omergoktas.com)
- *    Copyright 2013 Keith Parent (keithparent@me.com)
+ *    Copyright © 2022 Ömer Göktaş (omer@omergoktas.com)
+ *    Copyright © 2013 Keith Parent (keithparent@me.com)
  *
  *    This program is free software; you can redistribute it and/or modify
  *    it under the terms of the GNU General Public License, version 2, as 
