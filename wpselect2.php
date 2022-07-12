@@ -29,16 +29,12 @@
  */
 
 function enqueue_select2_jquery() {
-    wp_register_style('select2css', WP_PLUGIN_URL."/WpSelect2/select2/css/select2.css", false, '4.1.0', 'all');
-    wp_register_script('select2', WP_PLUGIN_URL."/WpSelect2/select2/js/select2.js", array('jquery'), '4.1.0', true);
-    wp_register_script('select2init', WP_PLUGIN_URL."/WpSelect2/select2-init.js", array('jquery'), '1.0.0', true);
-    wp_enqueue_style('select2css');
-    wp_enqueue_script('select2');
-    wp_enqueue_script('select2init');
+    wp_enqueue_style("select2css", WP_PLUGIN_URL."/TransParent_Select2/select2/css/select2.css", false, "4.1.0");
+    wp_enqueue_script("jquery");
+    wp_enqueue_script("select2", WP_PLUGIN_URL."/TransParent_Select2/select2/js/select2.js", array("jquery"), "4.1.0", 1);  
+    wp_enqueue_script("select2init", WP_PLUGIN_URL."/TransParent_Select2/select2-init.js", array("jquery", "select2"), "1.0.0", 1); 
 }
 
-if ( ! is_admin() ) {
-    add_action('admin_enqueue_scripts', 'enqueue_select2_jquery');
+if (!is_admin()) {
+    add_action('init', 'enqueue_select2_jquery');
 }
-
-/* EOF */
